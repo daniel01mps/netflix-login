@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline:none;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+        background-color: rgb(0, 0, 0);
+        background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/655a9668-b002-4262-8afb-cf71e45d1956/f03ede97-7e65-4053-b4da-480b025206cb/BR-pt-20240715-POP_SIGNUP_TWO_WEEKS-perspective_WEB_1ef1fdd5-0083-4de7-b22d-e1a4ca70b4f5_small.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 100%;
+}
+form{
+    width: 450px;
+    height: 720px;
+    background-color: rgba(0, 0, 0, 0.7);       
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 48px 68px;
+    border-radius: 4Px; 
+    color:#ffffff;
+}
+
+form label {
+    width: 314px;
+    height: 21.6px;
+    display: block; 
+    font-size: 1rem;    
+    text-transform: none;
+    padding: 10px;
+    margin-bottom: 16px;
+    color: #ffffffb3;
+    text-align: center;
+    
+}
+form input{     
+    width:314px;
+    height: 56px;       
+    display: block;
+    border: 1px solid #dedede;
+    background-color:rgba(0, 0, 0, 0);     
+    border-radius: 4px;
+    padding: 24px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: #DEDEDE;
+
+}
+form input:focus{
+    border-color: #990c0c;
+}
+.bot01{
+    width: 314px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: none;
+    background-color: rgb(153, 12, 12);
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;  
+    transition-duration: 200ms;
+    text-align: center;
+}
+.bot02{
+    width: 314px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: none;
+    background-color:rgba(100, 99, 99, 0.712) ;
+    color: #DEDEDE;
+    border-radius: 4px;
+    cursor: pointer;  
+    transition-duration: 200ms;
+}
+
+.bot03{
+    width: 314px;
+    height: 40px;
+    font-size: 16px;
+    text-transform: none;
+    background-color: rgba(255, 255, 255, 0);       
+    color: #DEDEDE;
+}
+
+.text1{
+    width: 314px;
+    height: 40px;
+    font-size: 16px;
+    text-transform: none;
+    background-color: rgba(255, 255, 255, 0);       
+    color: #DEDEDE;
+    
+}
+
+.bot01:hover{
+    background-color: rgb(79, 3, 3);
+}
+.bot02:hover{
+    background-color:rgba(161, 161, 161, 0.518) ;
+}
+.container {
+    img {
+        mix-blend-mode:multiply
+      }
+}
